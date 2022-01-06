@@ -1,0 +1,65 @@
+.bg-body {
+    background-color: #fffeeb !important;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.bg-landing {
+    background-image: url("../img/bg-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.d-color {
+    color: #FFEF03;
+}
+
+.b-color {
+    background-color: #FFEF03;
+}
+
+.body-bg {
+    background-image: url("../img/wave-2.svg");  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+
+@media (max-width:750px) {
+    .img-logo {
+        display: none;
+    }
+}
+
+/* Animated cards code */
+
+@keyframes rotate3d {
+    from {
+        -webkit-transform: rotate3d(0, 1, 0, 0deg);
+        transform: rotate3d(0, 1, 0, 0deg);
+    }
+    to {
+        -webkit-transform: rotate3d(0, 1, 0, -180deg);
+        transform: rotate3d(0, 1, 0, -180deg);
+    }
+
+}
+
+/* apply animation */
+.card:hover {
+    -webkit-animation: rotate3d 0.5s;
+    animation: rotate3d 0.5s;
+}
+
+/* Animation for the card */
+
+
+
+
+
+
